@@ -1,0 +1,11 @@
+# Demo N-STUDIO: sin build, se publica la carpeta tal cual y no se indexa
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
