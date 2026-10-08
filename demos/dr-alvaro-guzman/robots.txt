@@ -1,0 +1,3 @@
+# Demo: no indexar
+User-agent: *
+Disallow: /
